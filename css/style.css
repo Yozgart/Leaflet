@@ -1,0 +1,43 @@
+/* Quita el margen del body */
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+/* coloca el mapa y el html al 100% de la pantalla */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Se carga el estilo para el cuadro de información */
+.info {
+    padding: 6px 15px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Se carga el estilo para la leyenda */
+.legend {
+    line-height: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Se carga el estilo para los cuadros de la leyenda */
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/* Se carga el estilo de margenes en h4 */
+h4 {
+    margin: 4px;
+}
